@@ -8,7 +8,7 @@ pipeline {
             steps {
                 checkout scmGit(
                     branches: [[name: '*/main']],
-                    userRemoteConfigs: [[url: 'https://github.com/EbruAzkul/YMG-V']]
+                    userRemoteConfigs: [[url: 'https://github.com/EbruAzkul/malatyadeneme.git']]
                 )
                 bat 'mvn clean install'
             }

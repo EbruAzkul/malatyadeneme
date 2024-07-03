@@ -14,6 +14,6 @@ public class controllermain {
     @GetMapping
     public String deneme(){
 
-        return "ebru_denemeler ebruuuumalatyaaazkul ";
+        return "ebru_denemeler sademalatya ";
     }
 }

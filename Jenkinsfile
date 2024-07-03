@@ -25,7 +25,7 @@ pipeline {
         stage('Push image to Hub'){
             steps{
                 script{
-                    docker.image("demo12:${env.BUILD_NUMBER}").run("-d -p 4444:6060 --name demo-container")
+                    docker.image("demo12:${env.BUILD_NUMBER}").run("-d -p 4444:5050 --name demo-container")
                 }
             }
   }
